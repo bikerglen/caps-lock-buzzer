@@ -1,0 +1,1265 @@
+[p PRO_MODE GLOBOPT AUTOSTATIC PIC14 PIC14E SPEEDOPT ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1459 ]
+[d frameptr 6 ]
+"120 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\bsp/buttons.c
+[e E2617 . `uc
+BUTTON_NONE 0
+BUTTON_S1 1
+BUTTON_S2 2
+BUTTON_S3 3
+]
+"60 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\bsp/leds.c
+[e E2 . `uc
+LED_NONE 0
+LED_D1 1
+LED_D2 2
+LED_D3 3
+LED_D4 4
+]
+"68 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\demo_src/usb_events.c
+[e E2883 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_ALT_INTERFACE 123
+EVENT_HOLD_BEFORE_CONFIGURATION 124
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"99
+[e E2866 . `uc
+SYSTEM_STATE_USB_START 0
+SYSTEM_STATE_USB_SUSPEND 1
+SYSTEM_STATE_USB_RESUME 2
+]
+"69
+[e E2951 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"141 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\usb/usb_device.c
+[e E2996 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"713
+[e E2937 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_ALT_INTERFACE 123
+EVENT_HOLD_BEFORE_CONFIGURATION 124
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"2017
+[e E3005 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"304 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\demo_src/app_device_keyboard.c
+[e E3031 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"317
+[e E2734 . `uc
+BUTTON_NONE 0
+BUTTON_S1 1
+BUTTON_S2 2
+BUTTON_S3 3
+]
+"435
+[e E2746 . `uc
+LED_NONE 0
+LED_D1 1
+LED_D2 2
+LED_D3 3
+LED_D4 4
+]
+"55 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\demo_src/app_led_usb_status.c
+[e E2657 . `uc
+LED_NONE 0
+LED_D1 1
+LED_D2 2
+LED_D3 3
+LED_D4 4
+]
+"59
+[e E2942 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"40 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\demo_src/main.c
+[e E2866 . `uc
+SYSTEM_STATE_USB_START 0
+SYSTEM_STATE_USB_SUSPEND 1
+SYSTEM_STATE_USB_RESUME 2
+]
+"85 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\system.c
+[e E2866 . `uc
+SYSTEM_STATE_USB_START 0
+SYSTEM_STATE_USB_SUSPEND 1
+SYSTEM_STATE_USB_RESUME 2
+]
+"95
+[e E2629 . `uc
+LED_NONE 0
+LED_D1 1
+LED_D2 2
+LED_D3 3
+LED_D4 4
+]
+"97
+[e E2617 . `uc
+BUTTON_NONE 0
+BUTTON_S1 1
+BUTTON_S2 2
+BUTTON_S3 3
+]
+"60 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\bsp/buttons.c
+[v _BUTTON_UpdateStates BUTTON_UpdateStates `(v  1 e 1 0 ]
+"119
+[v _BUTTON_IsPressed BUTTON_IsPressed `(uc  1 e 1 0 ]
+"155
+[v _BUTTON_Enable BUTTON_Enable `(v  1 e 1 0 ]
+[v i1_BUTTON_Enable BUTTON_Enable `(v  1 e 1 0 ]
+"59 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\bsp/leds.c
+[v _LED_On LED_On `(v  1 e 1 0 ]
+[v i1_LED_On LED_On `(v  1 e 1 0 ]
+"100
+[v _LED_Off LED_Off `(v  1 e 1 0 ]
+[v i1_LED_Off LED_Off `(v  1 e 1 0 ]
+"220
+[v _LED_Enable LED_Enable `(v  1 e 1 0 ]
+[v i1_LED_Enable LED_Enable `(v  1 e 1 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\memset.c
+[v _memset memset `(*.4v  1 e 1 0 ]
+[v i1_memset memset `(*.4v  1 e 1 0 ]
+"270 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\demo_src/app_device_keyboard.c
+[v _APP_KeyboardInit APP_KeyboardInit `(v  1 e 1 0 ]
+"294
+[v _APP_KeyboardTasks APP_KeyboardTasks `(v  1 e 1 0 ]
+"431
+[v _APP_KeyboardProcessOutputReport APP_KeyboardProcessOutputReport `(v  1 s 1 APP_KeyboardProcessOutputReport ]
+[v i1_APP_KeyboardProcessOutputReport APP_KeyboardProcessOutputReport `(v  1 s 1 i1_APP_KeyboardProcessOutputReport ]
+"443
+[v _USBHIDCBSetReportComplete USBHIDCBSetReportComplete `(v  1 s 1 USBHIDCBSetReportComplete ]
+"453
+[v _USBHIDCBSetReportHandler USBHIDCBSetReportHandler `(v  1 e 1 0 ]
+"464
+[v _USBHIDCBSetIdleRateHandler USBHIDCBSetIdleRateHandler `(v  1 e 1 0 ]
+"49 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\demo_src/app_led_usb_status.c
+[v _APP_LEDUpdateUSBStatus APP_LEDUpdateUSBStatus `(v  1 e 1 0 ]
+"38 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\demo_src/main.c
+[v _main main `(i  1 e 2 0 ]
+"67 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\demo_src/usb_events.c
+[v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(uc  1 e 1 0 ]
+"84 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+[v i1_SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"112
+[v _SYS_InterruptHigh SYS_InterruptHigh `II(v  1 e 1 0 ]
+"277 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\usb/usb_device.c
+[v _USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+[v i1_USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+"477
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 1 0 ]
+"878
+[v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 1 0 ]
+"995
+[v _USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 1 0 ]
+[v i1_USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 1 0 ]
+"1352
+[v _USBDeviceAttach USBDeviceAttach `(v  1 e 1 0 ]
+"1416
+[v _USBCtrlEPAllowStatusStage USBCtrlEPAllowStatusStage `(v  1 e 1 0 ]
+"1488
+[v _USBCtrlEPAllowDataStage USBCtrlEPAllowDataStage `(v  1 e 1 0 ]
+"1543
+[v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 s 1 USBConfigureEndpoint ]
+"1616
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 1 USBCtrlEPServiceComplete ]
+"1771
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 s 1 USBCtrlTrfTxService ]
+"1852
+[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 s 1 USBCtrlTrfRxService ]
+"1968
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 s 1 USBStdSetCfgHandler ]
+"2043
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 s 1 USBStdGetDscHandler ]
+"2129
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 s 1 USBStdGetStatusHandler ]
+"2202
+[v _USBStallHandler USBStallHandler `(v  1 s 1 USBStallHandler ]
+"2245
+[v _USBSuspend USBSuspend `(v  1 s 1 USBSuspend ]
+"2303
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 s 1 USBWakeFromSuspend ]
+"2372
+[v _USBCtrlEPService USBCtrlEPService `(v  1 s 1 USBCtrlEPService ]
+"2465
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 s 1 USBCtrlTrfSetupHandler ]
+"2538
+[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 s 1 USBCtrlTrfOutHandler ]
+"2592
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 s 1 USBCtrlTrfInHandler ]
+"2686
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 s 1 USBCheckStdRequest ]
+"2754
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 s 1 USBStdFeatureReqHandler ]
+"3025
+[v _USBIncrement1msInternalTimers USBIncrement1msInternalTimers `(v  1 e 1 0 ]
+"153 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\usb/usb_device_hid.c
+[v _USBCheckHIDRequest USBCheckHIDRequest `(v  1 e 1 0 ]
+"41 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\bsp/buttons.c
+[v _state1 state1 `i  1 s 2 state1 ]
+[v _state2 state2 `i  1 s 2 state2 ]
+[v _state3 state3 `i  1 s 2 state3 ]
+[v _timer timer `i  1 s 2 timer ]
+[s S763 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"372 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f1459.h
+[s S772 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S777 . 1 `S763 1 . 1 0 `S772 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES777  1 e 1 @11 ]
+[s S19 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"486
+[u S25 . 1 `S19 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES25  1 e 1 @13 ]
+[s S676 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ACTIF 1 0 :1:1 
+`uc 1 USBIF 1 0 :1:2 
+`uc 1 BCL1IF 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 C1IF 1 0 :1:5 
+`uc 1 C2IF 1 0 :1:6 
+`uc 1 OSFIF 1 0 :1:7 
+]
+"647
+[u S685 . 1 `S676 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES685  1 e 1 @18 ]
+[s S71 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1043
+[u S77 . 1 `S71 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES77  1 e 1 @141 ]
+[s S186 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1085
+[u S195 . 1 `S186 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES195  1 e 1 @142 ]
+[s S586 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ACTIE 1 0 :1:1 
+`uc 1 USBIE 1 0 :1:2 
+`uc 1 BCL1IE 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 C1IE 1 0 :1:5 
+`uc 1 C2IE 1 0 :1:6 
+`uc 1 OSFIE 1 0 :1:7 
+]
+"1204
+[u S595 . 1 `S586 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES595  1 e 1 @146 ]
+[s S39 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1262
+[s S46 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S53 . 1 `S39 1 . 1 0 `S46 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES53  1 e 1 @149 ]
+"1502
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+[s S165 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"1947
+[u S174 . 1 `S165 1 . 1 0 ]
+[v _LATCbits LATCbits `VES174  1 e 1 @270 ]
+[s S108 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 ANSB4 1 0 :1:4 
+`uc 1 ANSB5 1 0 :1:5 
+]
+"2562
+[s S112 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 ANSB 1 0 :4:4 
+]
+[u S115 . 1 `S108 1 . 1 0 `S112 1 . 1 0 ]
+[v _ANSELBbits ANSELBbits `VES115  1 e 1 @397 ]
+[s S86 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 WPUB4 1 0 :1:4 
+`uc 1 WPUB5 1 0 :1:5 
+`uc 1 WPUB6 1 0 :1:6 
+`uc 1 WPUB7 1 0 :1:7 
+]
+"3167
+[s S92 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 WPUB 1 0 :4:4 
+]
+[u S95 . 1 `S86 1 . 1 0 `S92 1 . 1 0 ]
+[v _WPUBbits WPUBbits `VES95  1 e 1 @525 ]
+"4299
+[v _ACTCON ACTCON `VEuc  1 e 1 @923 ]
+"5002
+[v _UCON UCON `VEuc  1 e 1 @3726 ]
+[s S614 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 SUSPND 1 0 :1:1 
+`uc 1 RESUME 1 0 :1:2 
+`uc 1 USBEN 1 0 :1:3 
+`uc 1 PKTDIS 1 0 :1:4 
+`uc 1 SE0 1 0 :1:5 
+`uc 1 PPBRST 1 0 :1:6 
+]
+"5018
+[u S622 . 1 `S614 1 . 1 0 ]
+[v _UCONbits UCONbits `VES622  1 e 1 @3726 ]
+"5053
+[v _USTAT USTAT `VEuc  1 e 1 @3727 ]
+"5113
+[v _UIR UIR `VEuc  1 e 1 @3728 ]
+[s S634 . 1 `uc 1 URSTIF 1 0 :1:0 
+`uc 1 UERRIF 1 0 :1:1 
+`uc 1 ACTVIF 1 0 :1:2 
+`uc 1 TRNIF 1 0 :1:3 
+`uc 1 IDLEIF 1 0 :1:4 
+`uc 1 STALLIF 1 0 :1:5 
+`uc 1 SOFIF 1 0 :1:6 
+]
+"5129
+[u S642 . 1 `S634 1 . 1 0 ]
+[v _UIRbits UIRbits `VES642  1 e 1 @3728 ]
+"5169
+[v _UCFG UCFG `VEuc  1 e 1 @3729 ]
+"5223
+[v _UIE UIE `VEuc  1 e 1 @3730 ]
+[s S653 . 1 `uc 1 URSTIE 1 0 :1:0 
+`uc 1 UERRIE 1 0 :1:1 
+`uc 1 ACTVIE 1 0 :1:2 
+`uc 1 TRNIE 1 0 :1:3 
+`uc 1 IDLEIE 1 0 :1:4 
+`uc 1 STALLIE 1 0 :1:5 
+`uc 1 SOFIE 1 0 :1:6 
+]
+"5239
+[u S661 . 1 `S653 1 . 1 0 ]
+[v _UIEbits UIEbits `VES661  1 e 1 @3730 ]
+"5279
+[v _UEIR UEIR `VEuc  1 e 1 @3731 ]
+"5431
+[v _UADDR UADDR `VEuc  1 e 1 @3734 ]
+"5487
+[v _UEIE UEIE `VEuc  1 e 1 @3735 ]
+"5538
+[v _UEP0 UEP0 `VEuc  1 e 1 @3736 ]
+[s S832 . 1 `uc 1 EPSTALL 1 0 :1:0 
+`uc 1 EPINEN 1 0 :1:1 
+`uc 1 EPOUTEN 1 0 :1:2 
+`uc 1 EPCONDIS 1 0 :1:3 
+`uc 1 EPHSHK 1 0 :1:4 
+]
+"5552
+[u S838 . 1 `S832 1 . 1 0 ]
+[v _UEP0bits UEP0bits `VES838  1 e 1 @3736 ]
+"5582
+[v _UEP1 UEP1 `VEuc  1 e 1 @3737 ]
+[s S2117 . 63 `[63]uc 1 report 63 0 ]
+"41 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\demo_src/app_device_keyboard.c
+[v _hid_rpt01 hid_rpt01 `DCS2117  1 e 63 0 ]
+[s S2163 . 4 `*.39v 1 lastINTransmission 2 0 `*.39v 1 lastOUTTransmission 2 2 ]
+"231
+[v _keyboard keyboard `S2163  1 s 4 keyboard ]
+[s S2166 . 1 `uc 1 leftControl 1 0 :1:0 
+`uc 1 leftShift 1 0 :1:1 
+`uc 1 leftAlt 1 0 :1:2 
+`uc 1 leftGUI 1 0 :1:3 
+`uc 1 rightControl 1 0 :1:4 
+`uc 1 rightShift 1 0 :1:5 
+`uc 1 rightAlt 1 0 :1:6 
+`uc 1 rightGUI 1 0 :1:7 
+]
+"236
+[u S2175 . 1 `uc 1 value 1 0 `S2166 1 bits 1 0 ]
+[s S2178 . 8 `S2175 1 modifiers 1 0 `uc 1 . 1 1 :8:0 
+`[6]uc 1 keys 6 2 ]
+[v _inputReport inputReport `S2178  1 s 8 inputReport ]
+[s S2182 . 1 `uc 1 numLock 1 0 :1:0 
+`uc 1 capsLock 1 0 :1:1 
+`uc 1 scrollLock 1 0 :1:2 
+`uc 1 compose 1 0 :1:3 
+`uc 1 kana 1 0 :1:4 
+`uc 1 . 1 0 :3:5 
+]
+"241
+[u S2189 . 1 `uc 1 value 1 0 `S2182 1 leds 1 0 ]
+[v _outputReport outputReport `VES2189  1 s 1 outputReport ]
+[s S2166 . 1 `uc 1 leftControl 1 0 :1:0 
+`uc 1 leftShift 1 0 :1:1 
+`uc 1 leftAlt 1 0 :1:2 
+`uc 1 leftGUI 1 0 :1:3 
+`uc 1 rightControl 1 0 :1:4 
+`uc 1 rightShift 1 0 :1:5 
+`uc 1 rightAlt 1 0 :1:6 
+`uc 1 rightGUI 1 0 :1:7 
+]
+"257
+[u S2175 . 1 `uc 1 value 1 0 `S2166 1 bits 1 0 ]
+[s S2178 . 8 `S2175 1 modifiers 1 0 `uc 1 . 1 1 :8:0 
+`[6]uc 1 keys 6 2 ]
+[v _oldInputReport oldInputReport `S2178  1 e 8 0 ]
+"258
+[v _keyboardIdleRate keyboardIdleRate `i  1 e 2 0 ]
+"259
+[v _LocalSOFCount LocalSOFCount `i  1 e 2 0 ]
+"260
+[v _OldSOFCount OldSOFCount `i  1 s 2 OldSOFCount ]
+[s S233 _USB_DEVICE_DESCRIPTOR 18 `uc 1 bLength 1 0 `uc 1 bDescriptorType 1 1 `ui 1 bcdUSB 2 2 `uc 1 bDeviceClass 1 4 `uc 1 bDeviceSubClass 1 5 `uc 1 bDeviceProtocol 1 6 `uc 1 bMaxPacketSize0 1 7 `ui 1 idVendor 2 8 `ui 1 idProduct 2 10 `ui 1 bcdDevice 2 12 `uc 1 iManufacturer 1 14 `uc 1 iProduct 1 15 `uc 1 iSerialNumber 1 16 `uc 1 bNumConfigurations 1 17 ]
+"38 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\demo_src/usb_descriptors.c
+[v _device_dsc device_dsc `DCS233  1 e 18 0 ]
+"57
+[v _configDescriptor1 configDescriptor1 `DC[41]uc  1 e 41 0 ]
+[s S248 . 4 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[1]ui 1 string 2 2 ]
+"107
+[v _sd000 sd000 `DCS248  1 e 4 0 ]
+[s S252 . 52 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[25]ui 1 string 50 2 ]
+"112
+[v _sd001 sd001 `DCS252  1 e 52 0 ]
+[s S256 . 28 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[13]ui 1 string 26 2 ]
+"119
+[v _sd002 sd002 `DCS256  1 e 28 0 ]
+"125
+[v _USB_CD_Ptr USB_CD_Ptr `DC[1]*.25DCuc  1 e 2 0 ]
+"131
+[v _USB_SD_Ptr USB_SD_Ptr `DC[3]*.25DCuc  1 e 6 0 ]
+"44 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\demo_src/usb_events.c
+[v _SOFCounter SOFCounter `VEi  1 e 2 0 ]
+"141 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\usb/usb_device.c
+[v _USBDeviceState USBDeviceState `VEE2996  1 e 1 0 ]
+"142
+[v _USBActiveConfiguration USBActiveConfiguration `VEuc  1 e 1 0 ]
+"143
+[v _USBAlternateInterface USBAlternateInterface `VE[1]uc  1 e 1 0 ]
+[s S375 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"144
+[s S384 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S391 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S395 _BD_STAT 1 `uc 1 Val 1 0 `S375 1 . 1 0 `S384 1 . 1 0 `S391 1 . 1 0 ]
+[s S400 . 4 `S395 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S405 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S409 __BDT 4 `S400 1 . 4 0 `S405 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v _pBDTEntryEP0OutCurrent pBDTEntryEP0OutCurrent `*.4VES409  1 e 1 0 ]
+"145
+[v _pBDTEntryEP0OutNext pBDTEntryEP0OutNext `*.39VES409  1 e 2 0 ]
+"146
+[v _pBDTEntryOut pBDTEntryOut `[2]*.39VES409  1 e 4 0 ]
+"147
+[v _pBDTEntryIn pBDTEntryIn `[2]*.39VES409  1 e 4 0 ]
+"148
+[v _shortPacketStatus shortPacketStatus `VEuc  1 e 1 0 ]
+"149
+[v _controlTransferState controlTransferState `VEuc  1 e 1 0 ]
+[u S414 . 2 `*.1uc 1 bRam 2 0 `*.1DCuc 1 bRom 2 0 `*.1ui 1 wRam 2 0 `*.1DCui 1 wRom 2 0 ]
+"150
+[s S419 . 1 `uc 1 ctrl_trf_mem 1 0 :1:0 
+`uc 1 reserved 1 0 :5:1 
+`uc 1 includeZero 1 0 :1:6 
+`uc 1 busy 1 0 :1:7 
+]
+[u S424 . 1 `S419 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S427 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[u S430 . 2 `ui 1 Val 2 0 `[2]uc 1 v 2 0 `S427 1 byte 2 0 ]
+[s S434 . 5 `S414 1 pSrc 2 0 `S424 1 info 1 2 `S430 1 wCount 2 3 ]
+[v _inPipes inPipes `VE[1]S434  1 e 5 0 ]
+[u S438 . 2 `*.1uc 1 bRam 2 0 `*.1ui 1 wRam 2 0 ]
+"151
+[s S441 . 1 `uc 1 reserved 1 0 :7:0 
+`uc 1 busy 1 0 :1:7 
+]
+[u S444 . 1 `S441 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S448 . 7 `S438 1 pDst 2 0 `S444 1 info 1 2 `S430 1 wCount 2 3 `*.37(v 1 pFunc 2 5 ]
+[v _outPipes outPipes `VE[1]S448  1 e 7 0 ]
+"152
+[v _pDst pDst `*.4VEuc  1 e 1 0 ]
+"153
+[v _RemoteWakeup RemoteWakeup `VEuc  1 e 1 0 ]
+"154
+[v _USBBusIsSuspended USBBusIsSuspended `VEuc  1 e 1 0 ]
+[s S453 . 1 `uc 1 filler1 1 0 :1:0 
+`uc 1 ping_pong 1 0 :1:1 
+`uc 1 direction 1 0 :1:2 
+`uc 1 endpoint_number 1 0 :4:3 
+]
+"155
+[u S458 __USTAT 1 `S453 1 . 1 0 `uc 1 Val 1 0 ]
+[v _USTATcopy USTATcopy `VES458  1 e 1 0 ]
+"156
+[v _endpoint_number endpoint_number `VEuc  1 e 1 0 ]
+"157
+[v _BothEP0OutUOWNsSet BothEP0OutUOWNsSet `VEuc  1 e 1 0 ]
+[s S461 . 1 `uc 1 ping_pong_state 1 0 :1:0 
+`uc 1 transfer_terminated 1 0 :1:1 
+]
+"158
+[u S464 . 1 `S461 1 bits 1 0 `uc 1 Val 1 0 ]
+[v _ep_data_in ep_data_in `VE[2]S464  1 e 2 0 ]
+"159
+[v _ep_data_out ep_data_out `VE[2]S464  1 e 2 0 ]
+"160
+[v _USBStatusStageTimeoutCounter USBStatusStageTimeoutCounter `VEuc  1 e 1 0 ]
+"161
+[v _USBDeferStatusStagePacket USBDeferStatusStagePacket `VEuc  1 e 1 0 ]
+"162
+[v _USBStatusStageEnabledFlag1 USBStatusStageEnabledFlag1 `VEuc  1 e 1 0 ]
+"163
+[v _USBStatusStageEnabledFlag2 USBStatusStageEnabledFlag2 `VEuc  1 e 1 0 ]
+"164
+[v _USBDeferINDataStagePackets USBDeferINDataStagePackets `VEuc  1 e 1 0 ]
+"165
+[v _USBDeferOUTDataStagePackets USBDeferOUTDataStagePackets `VEuc  1 e 1 0 ]
+"166
+[v _USB1msTickCount USB1msTickCount `VEul  1 e 4 0 ]
+"167
+[v _USBTicksSinceSuspendEnd USBTicksSinceSuspendEnd `VEuc  1 e 1 0 ]
+"174
+[v _BDT BDT `VE[8]S409  1 e 32 @32 ]
+[s S467 . 8 `uc 1 bmRequestType 1 0 `uc 1 bRequest 1 1 `ui 1 wValue 2 2 `ui 1 wIndex 2 4 `ui 1 wLength 2 6 ]
+"179
+[s S494 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`S430 1 W_Value 2 2 `S430 1 W_Index 2 4 `S430 1 W_Length 2 6 ]
+[s S500 . 8 `uc 1 Recipient 1 0 :5:0 
+`uc 1 RequestType 1 0 :2:5 
+`uc 1 DataDir 1 0 :1:7 
+`uc 1 . 1 1 :8:0 
+`uc 1 bFeature 1 2 `uc 1 . 1 3 :8:0 
+`uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S511 . 1 `uc 1 recipient 1 0 :5:0 
+`uc 1 type 1 0 :2:5 
+`uc 1 direction 1 0 :1:7 
+]
+[u S515 . 1 `uc 1 bmRequestType 1 0 `S511 1 . 1 0 ]
+[s S518 . 1 `S515 1 requestInfo 1 0 ]
+[s S520 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bDscIndex 1 2 `uc 1 bDescriptorType 1 3 `ui 1 wLangID 2 4 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S528 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bDevADR 1 2 `uc 1 bDevADRH 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S537 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bConfigurationValue 1 2 `uc 1 bCfgRSD 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S546 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bAltID 1 2 `uc 1 bAltID_H 1 3 `uc 1 bIntfID 1 4 `uc 1 bIntfID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S555 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 bEPID 1 4 `uc 1 bEPID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S564 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 EPNum 1 4 :4:0 
+`uc 1 . 1 4 :3:4 
+`uc 1 EPDir 1 4 :1:7 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[u S575 . 8 `S467 1 . 8 0 `S494 1 . 8 0 `S500 1 . 8 0 `S518 1 . 1 0 `S520 1 . 8 0 `S528 1 . 8 0 `S537 1 . 8 0 `S546 1 . 8 0 `S555 1 . 8 0 `S564 1 . 8 0 ]
+[v _SetupPkt SetupPkt `VES575  1 e 8 @64 ]
+"180
+[v _CtrlTrfData CtrlTrfData `VE[8]uc  1 e 8 @72 ]
+"79 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\usb/usb_device_hid.c
+[v _idle_rate idle_rate `uc  1 s 1 idle_rate ]
+"80
+[v _active_protocol active_protocol `uc  1 s 1 active_protocol ]
+"38 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\demo_src/main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"67
+} 0
+"277 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\usb/usb_device.c
+[v _USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+{
+"296
+[v USBDeviceInit@p p `*.39uc  1 a 2 0 ]
+[v USBDeviceInit@i_1020 i `uc  1 a 1 2 ]
+"279
+[v USBDeviceInit@i i `uc  1 a 1 3 ]
+"371
+} 0
+"1352
+[v _USBDeviceAttach USBDeviceAttach `(v  1 e 1 0 ]
+{
+"1382
+} 0
+"84 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+[v SYSTEM_Initialize@state state `E2866  1 a 1 wreg ]
+[v SYSTEM_Initialize@state state `E2866  1 a 1 wreg ]
+[v SYSTEM_Initialize@state state `E2866  1 a 1 1 ]
+"108
+} 0
+"220 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\bsp/leds.c
+[v _LED_Enable LED_Enable `(v  1 e 1 0 ]
+{
+[v LED_Enable@led led `E2  1 a 1 wreg ]
+[v LED_Enable@led led `E2  1 a 1 wreg ]
+[v LED_Enable@led led `E2  1 a 1 0 ]
+"243
+} 0
+"155 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\bsp/buttons.c
+[v _BUTTON_Enable BUTTON_Enable `(v  1 e 1 0 ]
+{
+[v BUTTON_Enable@button button `E2617  1 a 1 wreg ]
+[v BUTTON_Enable@button button `E2617  1 a 1 wreg ]
+[v BUTTON_Enable@button button `E2617  1 a 1 0 ]
+"183
+} 0
+"294 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\demo_src/app_device_keyboard.c
+[v _APP_KeyboardTasks APP_KeyboardTasks `(v  1 e 1 0 ]
+{
+"296
+[v APP_KeyboardTasks@TimeDeltaMilliseconds TimeDeltaMilliseconds `i  1 a 2 13 ]
+"297
+[v APP_KeyboardTasks@i i `uc  1 a 1 15 ]
+"298
+[v APP_KeyboardTasks@needToSendNewReportPacket needToSendNewReportPacket `uc  1 a 1 12 ]
+"429
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\memset.c
+[v _memset memset `(*.4v  1 e 1 0 ]
+{
+[v memset@p1 p1 `*.4v  1 a 1 wreg ]
+"15
+[v memset@p p `*.4uc  1 a 1 4 ]
+"8
+[v memset@p1 p1 `*.4v  1 a 1 wreg ]
+[v memset@c c `i  1 p 2 0 ]
+[v memset@n n `ui  1 p 2 2 ]
+"18
+[v memset@p1 p1 `*.4v  1 a 1 5 ]
+"22
+} 0
+"995 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\usb/usb_device.c
+[v _USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 1 0 ]
+{
+[v USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[s S375 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"997
+[s S384 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S391 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S395 _BD_STAT 1 `uc 1 Val 1 0 `S375 1 . 1 0 `S384 1 . 1 0 `S391 1 . 1 0 ]
+[s S400 . 4 `S395 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S405 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S409 __BDT 4 `S400 1 . 4 0 `S405 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBTransferOnePacket@handle handle `*.39VES409  1 a 2 9 ]
+"995
+[v USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[v USBTransferOnePacket@dir dir `uc  1 p 1 0 ]
+[v USBTransferOnePacket@data data `*.39uc  1 p 2 1 ]
+[v USBTransferOnePacket@len len `uc  1 p 1 3 ]
+"1000
+[v USBTransferOnePacket@ep ep `uc  1 a 1 8 ]
+"1047
+} 0
+"119 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\bsp/buttons.c
+[v _BUTTON_IsPressed BUTTON_IsPressed `(uc  1 e 1 0 ]
+{
+[v BUTTON_IsPressed@button button `E2617  1 a 1 wreg ]
+[v BUTTON_IsPressed@button button `E2617  1 a 1 wreg ]
+[v BUTTON_IsPressed@button button `E2617  1 a 1 1 ]
+"137
+} 0
+"431 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\demo_src/app_device_keyboard.c
+[v _APP_KeyboardProcessOutputReport APP_KeyboardProcessOutputReport `(v  1 s 1 APP_KeyboardProcessOutputReport ]
+{
+"441
+} 0
+"59 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\bsp/leds.c
+[v _LED_On LED_On `(v  1 e 1 0 ]
+{
+[v LED_On@led led `E2  1 a 1 wreg ]
+[v LED_On@led led `E2  1 a 1 wreg ]
+[v LED_On@led led `E2  1 a 1 0 ]
+"82
+} 0
+"100
+[v _LED_Off LED_Off `(v  1 e 1 0 ]
+{
+[v LED_Off@led led `E2  1 a 1 wreg ]
+[v LED_Off@led led `E2  1 a 1 wreg ]
+[v LED_Off@led led `E2  1 a 1 0 ]
+"123
+} 0
+"112 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\system.c
+[v _SYS_InterruptHigh SYS_InterruptHigh `II(v  1 e 1 0 ]
+{
+"117
+} 0
+"477 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\usb/usb_device.c
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 1 0 ]
+{
+"479
+[v USBDeviceTasks@i i `uc  1 a 1 14 ]
+"827
+} 0
+"277
+[v i1_USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+{
+[v i1USBDeviceInit@p USBDeviceInit `*.39uc  1 a 2 0 ]
+[v i1USBDeviceInit@i USBDeviceInit `uc  1 a 1 3 ]
+[v i1USBDeviceInit@i_1020 USBDeviceInit `uc  1 a 1 2 ]
+"371
+} 0
+"2303
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 s 1 USBWakeFromSuspend ]
+{
+"2349
+} 0
+"2245
+[v _USBSuspend USBSuspend `(v  1 s 1 USBSuspend ]
+{
+"2286
+} 0
+"2202
+[v _USBStallHandler USBStallHandler `(v  1 s 1 USBStallHandler ]
+{
+"2227
+} 0
+"3025
+[v _USBIncrement1msInternalTimers USBIncrement1msInternalTimers `(v  1 e 1 0 ]
+{
+"3043
+} 0
+"2372
+[v _USBCtrlEPService USBCtrlEPService `(v  1 s 1 USBCtrlEPService ]
+{
+"2423
+} 0
+"2465
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 s 1 USBCtrlTrfSetupHandler ]
+{
+"2515
+} 0
+"1616
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 1 USBCtrlEPServiceComplete ]
+{
+"1748
+} 0
+"1488
+[v _USBCtrlEPAllowDataStage USBCtrlEPAllowDataStage `(v  1 e 1 0 ]
+{
+"1518
+} 0
+"2686
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 s 1 USBCheckStdRequest ]
+{
+"2733
+} 0
+"1968
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 s 1 USBStdSetCfgHandler ]
+{
+"1976
+[v USBStdSetCfgHandler@p p `*.39uc  1 a 2 6 ]
+[v USBStdSetCfgHandler@i_1771 i `uc  1 a 1 8 ]
+"1970
+[v USBStdSetCfgHandler@i i `uc  1 a 1 9 ]
+"2024
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\memset.c
+[v i1_memset memset `(*.4v  1 e 1 0 ]
+{
+[v i1memset@p1 p1 `*.4v  1 a 1 wreg ]
+[v i1memset@p memset `*.4uc  1 a 1 5 ]
+[v i1memset@p1 p1 `*.4v  1 a 1 wreg ]
+[v i1memset@c c `i  1 p 2 0 ]
+[v i1memset@n n `ui  1 p 2 2 ]
+"18
+[v i1memset@p1 p1 `*.4v  1 a 1 4 ]
+"22
+} 0
+"2129 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\usb/usb_device.c
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 s 1 USBStdGetStatusHandler ]
+{
+[s S375 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"2161
+[s S384 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S391 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S395 _BD_STAT 1 `uc 1 Val 1 0 `S375 1 . 1 0 `S384 1 . 1 0 `S391 1 . 1 0 ]
+[s S400 . 4 `S395 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S405 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S409 __BDT 4 `S400 1 . 4 0 `S405 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdGetStatusHandler@p p `*.39S409  1 a 2 0 ]
+"2184
+} 0
+"2043
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 s 1 USBStdGetDscHandler ]
+{
+"2112
+} 0
+"2754
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 s 1 USBStdFeatureReqHandler ]
+{
+[s S375 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"2756
+[s S384 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S391 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S395 _BD_STAT 1 `uc 1 Val 1 0 `S375 1 . 1 0 `S384 1 . 1 0 `S391 1 . 1 0 ]
+[s S400 . 4 `S395 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S405 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S409 __BDT 4 `S400 1 . 4 0 `S405 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdFeatureReqHandler@p p `*.39S409  1 a 2 9 ]
+"2761
+[v USBStdFeatureReqHandler@pUEP pUEP `*.39uc  1 a 2 6 ]
+[s S461 . 1 `uc 1 ping_pong_state 1 0 :1:0 
+`uc 1 transfer_terminated 1 0 :1:1 
+]
+"2757
+[u S464 . 1 `S461 1 bits 1 0 `uc 1 Val 1 0 ]
+[v USBStdFeatureReqHandler@current_ep_data current_ep_data `S464  1 a 1 8 ]
+"2980
+} 0
+"67 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\demo_src/usb_events.c
+[v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(uc  1 e 1 0 ]
+{
+[v USER_USB_CALLBACK_EVENT_HANDLER@event event `E2883  1 p 2 0 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@pdata pdata `*.39v  1 p 2 2 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@size size `ui  1 p 2 4 ]
+"138
+} 0
+"84 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\system.c
+[v i1_SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+[v i1SYSTEM_Initialize@state state `E2866  1 a 1 wreg ]
+[v i1SYSTEM_Initialize@state state `E2866  1 a 1 wreg ]
+[v i1SYSTEM_Initialize@state state `E2866  1 a 1 1 ]
+"108
+} 0
+"220 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\bsp/leds.c
+[v i1_LED_Enable LED_Enable `(v  1 e 1 0 ]
+{
+[v i1LED_Enable@led led `E2  1 a 1 wreg ]
+[v i1LED_Enable@led led `E2  1 a 1 wreg ]
+[v i1LED_Enable@led led `E2  1 a 1 0 ]
+"243
+} 0
+"155 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\bsp/buttons.c
+[v i1_BUTTON_Enable BUTTON_Enable `(v  1 e 1 0 ]
+{
+[v i1BUTTON_Enable@button button `E2617  1 a 1 wreg ]
+[v i1BUTTON_Enable@button button `E2617  1 a 1 wreg ]
+[v i1BUTTON_Enable@button button `E2617  1 a 1 0 ]
+"183
+} 0
+"153 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\usb/usb_device_hid.c
+[v _USBCheckHIDRequest USBCheckHIDRequest `(v  1 e 1 0 ]
+{
+"241
+} 0
+"453 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\demo_src/app_device_keyboard.c
+[v _USBHIDCBSetReportHandler USBHIDCBSetReportHandler `(v  1 e 1 0 ]
+{
+"459
+} 0
+"464
+[v _USBHIDCBSetIdleRateHandler USBHIDCBSetIdleRateHandler `(v  1 e 1 0 ]
+{
+[v USBHIDCBSetIdleRateHandler@reportID reportID `uc  1 a 1 wreg ]
+[v USBHIDCBSetIdleRateHandler@reportID reportID `uc  1 a 1 wreg ]
+[v USBHIDCBSetIdleRateHandler@newIdleRate newIdleRate `uc  1 p 1 0 ]
+"469
+[v USBHIDCBSetIdleRateHandler@reportID reportID `uc  1 a 1 1 ]
+"473
+} 0
+"60 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\bsp/buttons.c
+[v _BUTTON_UpdateStates BUTTON_UpdateStates `(v  1 e 1 0 ]
+{
+"116
+} 0
+"49 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\demo_src/app_led_usb_status.c
+[v _APP_LEDUpdateUSBStatus APP_LEDUpdateUSBStatus `(v  1 e 1 0 ]
+{
+"51
+[v APP_LEDUpdateUSBStatus@ledCount ledCount `ui  1 s 2 ledCount ]
+"98
+} 0
+"270 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\demo_src/app_device_keyboard.c
+[v _APP_KeyboardInit APP_KeyboardInit `(v  1 e 1 0 ]
+{
+"292
+} 0
+"995 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\usb/usb_device.c
+[v i1_USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 1 0 ]
+{
+[v i1USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[s S375 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+[s S384 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S391 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S395 _BD_STAT 1 `uc 1 Val 1 0 `S375 1 . 1 0 `S384 1 . 1 0 `S391 1 . 1 0 ]
+[s S400 . 4 `S395 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S405 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S409 __BDT 4 `S400 1 . 4 0 `S405 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v i1USBTransferOnePacket@handle USBTransferOnePacket `*.39VES409  1 a 2 9 ]
+[v i1USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[v i1USBTransferOnePacket@dir dir `uc  1 p 1 0 ]
+[v i1USBTransferOnePacket@data data `*.39uc  1 p 2 1 ]
+[v i1USBTransferOnePacket@len len `uc  1 p 1 3 ]
+"1000
+[v i1USBTransferOnePacket@ep ep `uc  1 a 1 8 ]
+"1047
+} 0
+"878
+[v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 1 0 ]
+{
+[v USBEnableEndpoint@ep ep `uc  1 a 1 wreg ]
+"880
+[v USBEnableEndpoint@p p `*.39uc  1 a 2 7 ]
+"878
+[v USBEnableEndpoint@ep ep `uc  1 a 1 wreg ]
+[v USBEnableEndpoint@options options `uc  1 p 1 4 ]
+"884
+[v USBEnableEndpoint@ep ep `uc  1 a 1 9 ]
+"902
+} 0
+"1543
+[v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 s 1 USBConfigureEndpoint ]
+{
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 wreg ]
+[s S375 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"1545
+[s S384 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S391 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S395 _BD_STAT 1 `uc 1 Val 1 0 `S375 1 . 1 0 `S384 1 . 1 0 `S391 1 . 1 0 ]
+[s S400 . 4 `S395 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S405 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S409 __BDT 4 `S400 1 . 4 0 `S405 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBConfigureEndpoint@handle handle `*.4VES409  1 a 1 3 ]
+"1543
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 wreg ]
+[v USBConfigureEndpoint@direction direction `uc  1 p 1 0 ]
+"1549
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 2 ]
+"1585
+} 0
+"2538
+[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 s 1 USBCtrlTrfOutHandler ]
+{
+"2567
+} 0
+"1852
+[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 s 1 USBCtrlTrfRxService ]
+{
+"1854
+[v USBCtrlTrfRxService@byteToRead byteToRead `uc  1 a 1 5 ]
+"1855
+[v USBCtrlTrfRxService@i i `uc  1 a 1 4 ]
+"1947
+} 0
+"1416
+[v _USBCtrlEPAllowStatusStage USBCtrlEPAllowStatusStage `(v  1 e 1 0 ]
+{
+"1459
+} 0
+"2592
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 s 1 USBCtrlTrfInHandler ]
+{
+"2594
+[v USBCtrlTrfInHandler@lastDTS lastDTS `uc  1 a 1 5 ]
+"2667
+} 0
+"443 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\demo_src/app_device_keyboard.c
+[v _USBHIDCBSetReportComplete USBHIDCBSetReportComplete `(v  1 s 1 USBHIDCBSetReportComplete ]
+{
+"451
+} 0
+"431
+[v i1_APP_KeyboardProcessOutputReport APP_KeyboardProcessOutputReport `(v  1 s 1 i1_APP_KeyboardProcessOutputReport ]
+{
+"441
+} 0
+"59 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\bsp/leds.c
+[v i1_LED_On LED_On `(v  1 e 1 0 ]
+{
+[v i1LED_On@led led `E2  1 a 1 wreg ]
+[v i1LED_On@led led `E2  1 a 1 wreg ]
+[v i1LED_On@led led `E2  1 a 1 0 ]
+"82
+} 0
+"100
+[v i1_LED_Off LED_Off `(v  1 e 1 0 ]
+{
+[v i1LED_Off@led led `E2  1 a 1 wreg ]
+[v i1LED_Off@led led `E2  1 a 1 wreg ]
+[v i1LED_Off@led led `E2  1 a 1 0 ]
+"123
+} 0
+"1771 D:\users\glen\projects\caps-lock-buzzer\software\caps-lock-buzzer-pic16f1459-nobtld.X\usb/usb_device.c
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 s 1 USBCtrlTrfTxService ]
+{
+"1773
+[v USBCtrlTrfTxService@byteToSend byteToSend `uc  1 a 1 2 ]
+"1825
+} 0

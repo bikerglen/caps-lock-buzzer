@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/LPCUSBDK_16F1459/production\caps-lock-buzzer-pic16f1459-nobtld.X.production.hex">
+    <memory name="program">
+      <units>words</units>
+      <length>8192</length>
+      <used>3856</used>
+      <free>4336</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>1024</length>
+      <used>185</used>
+      <free>839</free>
+    </memory>
+  </executable>
+</project>
