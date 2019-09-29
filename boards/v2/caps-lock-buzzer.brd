@@ -2055,7 +2055,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_PART_NUMBER" value="PRTR5V0U2X" x="8.255" y="17.62125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="NXP" x="8.255" y="17.62125" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R2" library="rcl" package="R0805" value="2.2k" x="22.86" y="16.51" smashed="yes" rot="MR270"/>
+<element name="R2" library="rcl" package="R0805" value="1k" x="22.86" y="16.51" smashed="yes" rot="MR270"/>
 <element name="USER1" library="microbuilder" package="CHIPLED_0805_NOOUTLINE" value="RED" x="22.86" y="16.51" smashed="yes" rot="R180"/>
 <element name="SW1" library="adafruit" package="KMR2" value="KMR211NGLFS " x="2.54" y="8.89" smashed="yes" rot="R270"/>
 </elements>

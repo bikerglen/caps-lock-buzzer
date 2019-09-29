@@ -10061,7 +10061,7 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <part name="U2" library="Nexperia_PRTR5V0U2X,215" deviceset="PRTR5V0U2X" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
-<part name="R2" library="rcl" deviceset="R-US_" device="R0805" value="2.2k"/>
+<part name="R2" library="rcl" deviceset="R-US_" device="R0805" value="1k"/>
 <part name="USER1" library="microbuilder" deviceset="LED" device="0805_NOOUTLINE" value="RED"/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
