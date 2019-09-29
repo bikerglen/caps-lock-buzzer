@@ -1,0 +1,7 @@
+For the v2 version of this board with ESD protection, button, and LED, the following additonal parts are needed:
+
+	Mouser #	Mfr. #	Manufacturer	Customer #	Description	RoHS	Lifecycle	Order Qty.	Price (USD)	Ext.: (USD)
+1	611-KMR211NGLFS	KMR211NGLFS	C&K Switches		Tactile Switches Tact	RoHS Compliant		2	$0.52	$1.04
+2	771-PRTR5V0U2X-T/R	PRTR5V0U2X,215	Nexperia		ESD Suppressors / TVS Diodes 5.5V DUAL R-R ESD ULTRA LOW CAP	RoHS Compliant		2	$0.51	$1.02
+3	645-599-0130-007F	599-0130-007F	Dialight		Standard LEDs - SMD SMD 0805 ORANGE	RoHS Compliant	New Product	10	$0.264	$2.64
+
